@@ -1,0 +1,43 @@
+@scale2: #edf8fb;
+@scale3: #b3cde3;
+@scale4: #8c96c6;
+@scale5: #8856a7;
+@scale6: #810f7c;
+
+
+Map {
+  background-color: #333;
+}
+
+#countries {
+  ::outline {
+    line-color: #666;
+    line-width: 2;
+    line-join: round;
+  }
+  polygon-fill: #666;
+}
+
+#electionegypt::glow {
+   line-color: #666;
+   line-opacity: 0.8;
+   line-width: 4;
+}
+
+#pleresults2013 {
+  polygon-fill:#9F6;
+  line-color:#fff;
+  line-opacity:0.43;
+  line-width:2.8;
+  polygon-opacity:1;
+  polygon-fill:#e6e6e6;
+  
+    
+  [Percentage = 0]  { polygon-fill:@scale2; }
+  [Percentage > 0] { polygon-fill:@scale3; }
+  [Percentage > 5]  { polygon-fill:@scale4; }
+  [Percentage > 15] { polygon-fill:@scale5; }
+  [Percentage > 20] { polygon-fill:@scale6; }
+  
+  
+}
