@@ -1,0 +1,51 @@
+<div class='my-legend'>
+<div class='legend-title'> Percentage of pupils with distinction score in the Primary Leaving Exams(PLE) in Uganda's districts</div>
+<div class='legend-scale'>
+  <ul class='legend-labels'>
+    <li><span style='background:#edf8fb;'></span>0</li>
+    <li><span style='background:#b3cde3;'></span>0-5</li>
+    <li><span style='background:#8c96c6;'></span>5-15</li>
+    <li><span style='background:#8856a7;'></span>15-20</li>
+    <li><span style='background:#810f7c;'></span>20-100</li>
+  </ul>
+</div>
+<div class='legend-source'>Source: <a href="#">SchoolofData</a></div>
+</div>
+
+<style type='text/css'>
+  .wax-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .wax-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .wax-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 45px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+    }
+  .wax-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 45px;
+    }
+  .wax-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+    }
+  .wax-legend a {
+    color: #777;
+    }
+</style>
