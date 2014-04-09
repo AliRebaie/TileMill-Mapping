@@ -18,11 +18,12 @@ Map {
   polygon-fill: #666;
 }
 
-#electionegypt::glow {
-   line-color: #666;
+#pleresults2013::glow {
+   line-color: #8c96c6;
    line-opacity: 0.8;
-   line-width: 4;
+   line-width: 6;
 }
+
 
 #pleresults2013 {
   polygon-fill:#9F6;
